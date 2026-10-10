@@ -88,9 +88,9 @@ html[lang="ja"] .lang button[data-l="ja"],html[lang="en"] .lang button[data-l="e
 .hero-visual{position:relative;padding:18px 0 0 0}
 .beams{position:absolute;right:-18%;top:-26%;width:120%;aspect-ratio:1;background:repeating-conic-gradient(from 0deg,rgba(246,205,139,.42) 0 7deg,transparent 7deg 22deg);-webkit-mask-image:radial-gradient(circle,#000 8%,transparent 68%);mask-image:radial-gradient(circle,#000 8%,transparent 68%);animation:spin 80s linear infinite;pointer-events:none}
 @keyframes spin{to{transform:rotate(360deg)}}
-.hero-photo{position:relative;border-radius:28px 28px 28px 110px;overflow:hidden;box-shadow:0 30px 50px -28px rgba(31,75,55,.55);aspect-ratio:4/3.3;border:6px solid var(--card)}
-.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:62% 55%;transform:scale(1.08);transition:transform 1.2s}
-.hero-visual:hover .hero-photo img{transform:scale(1.14)}
+.hero-photo{position:relative;border-radius:28px 28px 28px 110px;overflow:hidden;box-shadow:0 30px 50px -28px rgba(31,75,55,.55);aspect-ratio:1/1;border:6px solid var(--card)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 50%;transition:transform 1.2s}
+.hero-visual:hover .hero-photo img{transform:scale(1.06)}
 .float-badge{position:absolute;left:-6px;bottom:-18px;background:var(--green);color:#fff;border-radius:18px;padding:12px 18px;font-family:var(--head);font-weight:700;font-size:.9rem;line-height:1.5;box-shadow:var(--shadow);animation:bob 5s ease-in-out infinite}
 .float-badge small{display:block;font-weight:500;font-size:.72rem;opacity:.85}
 @keyframes bob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-10px) rotate(1deg)}}
@@ -367,7 +367,6 @@ footer .copy{border-top:1px solid rgba(255,255,255,.18);padding-top:16px;font-si
   .hdr .wrap{gap:20px}
   .hero{padding:54px 0 96px}
   .hero-grid{grid-template-columns:1.02fr 1fr;align-items:center;gap:50px}
-  .hero-photo{aspect-ratio:4/4.1}
   .sec{padding:104px 0}
   .hours-grid{grid-template-columns:1.1fr .9fr;gap:36px;align-items:start}
   .emer-top{grid-template-columns:1fr 1fr;gap:22px}
